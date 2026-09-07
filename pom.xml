@@ -86,9 +86,9 @@
 				<artifactId>flyway-maven-plugin</artifactId>
 				<version>10.10.0</version>
 				<configuration>
-					<url>jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL</url>
-					<user>RM99196</user>
-					<password>190101</password>
+					<url>${env.DB_URL}</url>
+					<user>${env.DB_USERNAME}</user>
+					<password>${env.DB_PASSWORD}</password>
 				</configuration>
 			</plugin>
 		</plugins>
