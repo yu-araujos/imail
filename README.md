@@ -117,6 +117,6 @@ The API starts on `http://localhost:8080` by default.
 
 ## Known Limitations
 
-- Passwords are currently stored and compared in plain text, fine for an academic demo, but would need hashing (e.g. BCrypt) before any real-world use.
+- Passwords are currently stored and compared in plain text, fine for an academic demo, but would need hashing before any real-world use.
 - User preferences are limited to the color theme; this is the natural next area to expand.
 - The H2 dependency is included but the project is currently wired to Oracle; swap the datasource properties to run against H2 for local development without an Oracle instance.
