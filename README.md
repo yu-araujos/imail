@@ -91,7 +91,7 @@ Join table `t_marcador_email` implements the email ↔ label relationship, with 
 
 ### Configuration
 
-Database credentials are read from `src/main/resources/application.properties`. Don't commit real credentials; use environment variables or a local, git-ignored properties file instead:
+Database credentials are read from `src/main/resources/application.properties`. 
 
 ```properties
 spring.datasource.url=jdbc:oracle:thin:@<host>:<port>:<sid>
